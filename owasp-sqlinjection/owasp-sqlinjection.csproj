@@ -28,4 +28,7 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="appsettings.Development.json" />
+  </ItemGroup>
 </Project>
